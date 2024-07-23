@@ -1,12 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Sharon's Resume</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Sharon's Resume</title>
-  <link rel="stylesheet" href="./style.css" />
-</head>
+	<body>
+		<div class="container">
+			<nav
+				class="navbar navbar-expand navbar-dark bg-transparent"
+				aria-label="Second navbar example"
+			>
+				<div class="container-fluid">
+					<a class="navbar-brand" href="./index.html"
+						><img
+							src="./Assets/Logo v2.png"
+							alt="Sharon Herrmann"
+							height="40px"
+					/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarsExample02"
+						aria-controls="navbarsExample02"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-  <body>
-    
-  </body>
+					<div class="collapse navbar-collapse" id="navbarsExample02">
+						<ul class="navbar-nav me-auto">
+							<li class="nav-item">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="./index.html"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./about.html"
+									>About</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./contact.html"
+									>Contact</a
+								>
+							</li>
+							<li>
+								<button
+									type="button"
+									class="btn btn-outline-primary btn-custom"
+									href="./Assets/2024 Web Developer - Herrmann.pdf"
+									download="Herrmann Resume"
+								>
+									Resume
+								</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<section id="hero">
+			<div class="container col-xxl-8 px-4 py-5">
+				<div
+					class="row flex-lg-row-reverse align-items-center g-5 py-5"
+				>
+					<div class="col-10 col-sm-8 col-lg-6">
+						<img
+							src="./Assets/Home Hero.webp"
+							class="d-block mx-lg-auto img-fluid"
+							alt="Bootstrap Themes"
+							height="500"
+							loading="lazy"
+						/>
+					</div>
+					<div class="col-lg-6">
+						<h1 class="display-5 fw-bold lh-1 mb-3">
+							I am Sharon, Web Developer with 15+ years in
+							customer smiles.
+						</h1>
+						<p class="lead">
+							Hello! I am a self-taught web developer taking
+							courses for HTML, CSS, and JavaScript. With an
+							extensive background in customer service and
+							on-the-job opportunities to flex my problem-solving
+							superpower, I have been able to teach myself various
+							programs to better the employee experience and
+							increase customer satisfaction. Read more
+							<a href="./about.html">here.</a>
+							<br />
+							<br />
+
+							I am looking for a role where I can use my knowledge
+							to help others. I enjoy learning and making things
+							that benefit the user and the intended target. I am
+							a team player and I can also work solo. Whether
+							discussing design concepts, the front-end needs, or
+							seeing what's possible from a back-end standpoint, I
+							can work with and coordinate between teams to make
+							the vision a reality.
+							<br />
+							<br />
+
+							I am an open book. To see my resume, click the
+							button above. If you would like to ask a question or
+							introdudce yourself, use my
+							<a href="./contact.html">contact form</a> to send a
+							message!
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="footer">
+			<div class="container">
+				<footer
+					class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+				>
+					<div class="col-md-4 d-flex align-items-center">
+						<a
+							href="/"
+							class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+						>
+							<svg class="bi" width="30" height="24">
+								<use xlink:href="#bootstrap"></use>
+							</svg>
+						</a>
+						<span class="mb-3 mb-md-0 text-body-secondary foot-text"
+							>© 2024 Sharon Herrmann</span
+						>
+					</div>
+
+					<ul
+						class="nav col-md-4 justify-content-end list-unstyled d-flex"
+					>
+						<li class="ms-3">
+							<a
+								class="text-body-secondary"
+								href="https://www.linkedin.com/in/sharonherrmann/"
+								><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-linkedin"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+									/></svg
+							></a>
+						</li>
+					</ul>
+				</footer>
+			</div>
+		</section>
+	</body>
+</html>

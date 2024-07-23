@@ -1,1 +1,29 @@
+body {
+	background-color: #1a0452;
+}
 
+.btn-custom,
+.btn-custom:hover {
+	border-color: #090631 !important;
+}
+.btn:hover,
+.btn:active {
+	background-color: #090631;
+	color: white;
+}
+
+h1,
+h2,
+a,
+.btn {
+	font-family: "Palatino Linotype", serif;
+	color: white;
+}
+p {
+	font-family: Raleway, sans-serif;
+	color: white;
+}
+.foot-text,
+svg {
+	color: rgb(225, 217, 251) !important;
+}
